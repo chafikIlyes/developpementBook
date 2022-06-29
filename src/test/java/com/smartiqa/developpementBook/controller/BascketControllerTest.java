@@ -1,4 +1,4 @@
-package com.smartiqa.tdd;
+package com.smartiqa.developpementBook.controller;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
@@ -8,19 +8,18 @@ import org.springframework.mock.web.MockHttpServletRequest;
 
 @AutoConfigureMockMvc
 @SpringBootTest
-class BascketDiscountPriceCalculatorTest {
+public class BascketControllerTest {
 
-    // Inject Support Utils
-private static MockHttpServletRequest request;
+    //Inject Support Utils
+    private MockHttpServletRequest request;
 
-// Inject services 
-@Mock
-BascketServices bascketServicesMock;
+    // Inject services
+    @Mock
+    BascketService bascketService ;
 
-@Test
-    public void placeHolderTest (){
+    @Test
+    public  void  placeHolderTest(){
 
-}
-
+    }
 
 }
